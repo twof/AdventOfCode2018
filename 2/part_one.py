@@ -10,6 +10,7 @@ def solution():
             histogram = {}
             is_two = False
             is_three = False
+           
             for letter in line:
                 if letter in histogram:
                     histogram[letter] += 1
@@ -25,7 +26,6 @@ def solution():
             twos += 1 if is_two else 0
             threes += 1 if is_three else 0
  
-    print(twos, threes)
     return twos * threes
 
 
