@@ -15,4 +15,4 @@ def solution():
                     selected = map(lambda tupe: tupe[0], filtered)
                     return selected
 sol = "".join(solution()[:-1])
-print(sol)
+print(sol)gi
